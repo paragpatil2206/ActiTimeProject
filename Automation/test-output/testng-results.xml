@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Database Connected Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Launched Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Database Disconnected Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-03-30T12:12:08 IST" name="Default suite" finished-at="2023-03-30T12:12:54 IST" duration-ms="46285">
+    <groups>
+    </groups>
+    <test started-at="2023-03-30T12:12:08 IST" name="Default test" finished-at="2023-03-30T12:12:54 IST" duration-ms="46285">
+      <class name="com.ActiTime.TestScripts.Task_Test">
+        <test-method is-config="true" signature="databaseConnection()[pri:0, instance:com.ActiTime.TestScripts.Task_Test@50eac852]" started-at="2023-03-30T12:12:08 IST" name="databaseConnection" finished-at="2023-03-30T12:12:08 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database Connected Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- databaseConnection -->
+        <test-method is-config="true" signature="LaunchBrower()[pri:0, instance:com.ActiTime.TestScripts.Task_Test@50eac852]" started-at="2023-03-30T12:12:08 IST" name="LaunchBrower" finished-at="2023-03-30T12:12:34 IST" duration-ms="25791" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launched Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrower -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:com.ActiTime.TestScripts.Task_Test@50eac852]" started-at="2023-03-30T12:12:34 IST" name="Login" finished-at="2023-03-30T12:12:34 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="CreateCustomer()[pri:0, instance:com.ActiTime.TestScripts.Task_Test@50eac852]" started-at="2023-03-30T12:12:34 IST" name="CreateCustomer" finished-at="2023-03-30T12:12:54 IST" duration-ms="20064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomer -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.ActiTime.TestScripts.Task_Test@50eac852]" started-at="2023-03-30T12:12:54 IST" name="closeBrowser" finished-at="2023-03-30T12:12:54 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="databaseDisconnection()[pri:0, instance:com.ActiTime.TestScripts.Task_Test@50eac852]" started-at="2023-03-30T12:12:54 IST" name="databaseDisconnection" finished-at="2023-03-30T12:12:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database Disconnected Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- databaseDisconnection -->
+      </class> <!-- com.ActiTime.TestScripts.Task_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
